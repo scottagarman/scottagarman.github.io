@@ -1,0 +1,59 @@
+/*
+_______________________________
+Desktop version layout - place your custom code here */
+
+body {
+
+    background-color: white;
+}
+
+
+.above {
+	text-align: center;
+    background-color: #333;
+    color: white;
+    text-shadow: #161515 0px 2px 0px;
+    height: 50px;
+    -webkit-box-shadow: 0px 0px 4px 0px #eb6721;
+    -moz-box-shadow: 0px 0px 4px 0px #eb6721;
+    box-shadow: 0px 0px 4px 0px #eb6721;
+}
+.header {
+	text-align: center;
+	margin-top: 2px;
+    background-color: #F2F2F2;
+    border: 1px solid #E6E6E6;
+    background-image: url(/images/bg_noise.png);
+    background-repeat: repeat;
+}
+
+.title {
+}
+
+/*
+_______________________________
+Mobile version - preset code from cssgrid.net */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	.examplecontainer {}
+
+	body {}
+	
+}
+
+
+/*
+_______________________________
+Provide higher res assets for iPhone 4 - preset code from cssgrid.net */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+	/* An example of how to override an image with one twice the size for iPhone 4. Specify the original pixel size with background-size.
+	.download {
+	background: url(../img/downarrow@2x.png) no-repeat;
+	background-size: 27px 28px;
+	}
+	*/
+
+}
